@@ -1,0 +1,39 @@
+.user {
+    width: 500px;
+    height: 250px;
+    background-color: #B0C4DE;
+    border-radius: 50px;
+    display: flex;
+    transition: 1s;
+}
+
+.user:hover {
+    background-color: #483D8B;
+    color: #FFFFFF;
+    transition: 1s;
+}
+
+.photo img {
+    height: 88%;
+    padding: 15px;
+    border-radius: 50px;
+    border-width: 15px;
+}
+
+.info {
+    padding: 30px 10px;
+    width: 50%;
+    border-width: 15px;
+}
+.fio {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.birthday::before {
+    content: 'Дата рождения: '
+}
+
+.city::before {
+    content: 'Город: '
+}
